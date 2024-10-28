@@ -1,0 +1,83 @@
+header{
+    background-color: #6aaeff;
+    height: 50px;
+    padding-top: 1px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    background-color: #003d82;
+    color: #E1E5E7;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.fundobanner{
+    background-color: #003d82;
+    height: 300px;
+}
+
+.nome{
+    text-align: center;
+    padding: 5px;
+}
+
+.fotoTexto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fotoPerfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.fundoprofissional{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 30px;
+}
+
+.resumoprofissional,
+.historicoprofissional{
+    border: 2px solid #88A4DA;
+    padding: 5px;
+    width: 50%;
+}
+
+.fundoCompetencias{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 25px;
+}
+
+.formAcademica,
+.habilidades{
+    border: 2px solid #88A4DA;
+    padding: 5px;
+    width: 50%;
+}
+
+.fundoRodape{
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
